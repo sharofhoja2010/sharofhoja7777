@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.body {
+    background-color: #EDF3F8;
+}
+.li__a {
+    color: #36536B;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+.div__ul {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+.header {
+    padding: 35px;
+}
+.li__button {
+    padding: 16px 26px;
+    background-color: #BA4270;
+    border: none;
+    border-radius: 25px;
+    color: white;
+}
+.main__section > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div__h1 {
+    font-size: 70px;
+    width: 546px;
+    color: #36536B;
+}
+.Who-we-work-with {
+    background-color: #1B262F;
+    padding: 100px 165px;
+} 
+.div__h2 {
+    color: white;
+}
+.div__p {
+    font-size: 15px;
+    width: 445px;
+    color: white;
+    margin-top: 20px;
+}
+.div__button {
+    padding: 12px 32px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+}
+.Who-we-work-with > .container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.section__div {
+    flex-wrap: wrap;
+    gap: 30px;
+    display: flex;
+}
+.div__img {
+    height: 28px;
+}
+.Easy-to {
+    color: #36536B;
+    font-size: 48px;
+} 
+.our-API {
+    color: #36536B;
+    font-size: 15px;
+    width: 400px;
+    margin-top: 10px;
+}
+.Easy-to-implement > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+.div__h3 {
+    color: #36536B;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+.Consolidate {
+    color: #36536B;
+    font-size: 15px;
+    width: 350px;
+}
+.banck {
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+.section > .container {
+    display: flex;
+    justify-content: space-between;
+}
+.Pricing {
+    display: flex;
+    column-gap: 30px;
+}
+.footer {
+    background-image: url(./photo/Bitmap\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 38px 164px;
+}
+.li__a1 {
+    color: #fbfcfe;
+}
+.img-Path {
+    column-gap: 20px;
+    display: flex;
+}
+.footer > .container {
+    display: flex;
+    justify-content: space-between;
+}
+.div-Path__img {
+    width: 24px;
+    height: 24px;
+}
+@media (max-width:376px) {
+    .div__ul {
+        display: none;
+    }
+        
+}
+@media (max-width:375px) {
+    .div__ul__li {
+        background-image: url(./photo/Group.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 30px;
+        height: 30px;
+        display: block;
+    }
+    .div__h1 {
+        position: relative;
+        width: 327px;
+        height: 108px;
+    }
+    .section >.container{
+    flex-wrap: wrap;
+    display: flex;
+}
+.footer > .div__ul__ll {
+height: 353px;
+top: 2821px;
+left: -4px;
+gap: 0px;
+opacity: 0px;
+
+}
+}
+@media (max-width:1024px) {
+    .main__section > .container {
+        flex-direction: column-reverse;
+    }
+    .a__img {
+        display: none;
+    }
+    .div__h1 {
+        color: rgb(54, 83, 107);
+        font-family: "DM Serif Display";
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+        text-align: center;
+    }
+    .main__section {
+        padding-bottom: 48px;
+    }
+    .Who-we-work-with > .container {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .section__div {
+        margin-bottom: 64px;
+        justify-content: space-between;
+    }
+}
+.container__div1 {
+    padding-bottom: 50px;
+}
+.container__div {
+    margin-left: 100px;
+}
+.section__div__div {
+    flex-direction: column-reverse;
+    margin-bottom: 70px;
+    width: 300px;
+   position: relative;
+   left: -80px;
+} 
+@media (max-width:1440px) {
+    .a__img {
+        display: none;
+    }
+}
+.container__div2 {
+    flex-direction: column-reverse;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+.section__div2 {
+        position: relative;
+        width: 365px;
+        height: 154px;
+        right: 10px;
+        bottom: 40px;
+        flex-direction: column-reverse;
+}
+.div__img {
+    width: 79px;
+    flex-direction: column-reverse;
+}
+.div__p {
+    width: 375px;
+}
